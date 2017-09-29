@@ -1,0 +1,55 @@
+
+<link rel='stylesheet' href='./style.css'>
+
+
+<a href='/logout'>Logout</a>
+<a href='/clippets'>My Clips</a>
+<a href='/create_clip'> Create A Clip</a>
+
+
+<form action='/create_clip' method='post'>
+
+
+<center>
+  <h1> Create a Clip </h1>
+
+  <p>
+
+<h2> Coding Language : </h2>
+</p>
+<input type='text' name='language' value='' placeholder="Language">
+
+<p>
+<h2> Give your Clip a title! </h2>
+</p>
+<input type='text' name='title' value='' placeholder="Snippet Title">
+
+<p>
+<h2> Add Tags For Your Clippet ( Using Commas, No Spaces )</h2>
+</p>
+<input type='text' name='tags' value='' placeholder="tags">
+
+<p>
+<h2> Add Notes For Your Clippet! </h2>
+</p>
+<textarea cols="60" rows="6" type='text' name='notes' value='' placeholder="Write your notes here ...">
+</textarea>
+
+
+
+
+<p>
+<h2> Write Your Code </h2>
+</p>
+<textarea cols="100" rows="10" type='text' name='clippetcode' value='' placeholder="Write your code ... ">
+</textarea>
+<br>
+
+<a href='/clippets'>Submit</a>
+
+<a href type='submit' name='button'>CLIP!</button>
+
+
+
+</center>
+</form>

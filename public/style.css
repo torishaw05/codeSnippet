@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+font-family: monospace;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+button {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(145, 84, 214);
+  border: 3px solid white;
+  font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-family: monospace;
+
+}
+button:hover {
+  background-color: rgb(157, 235, 211);
+
+}
+input {
+  height: 39px;
+  margin: 10px;
+  width: 160px;
+}
+a {
+  width: 80px;
+  height: 40px;
+  background-color: rgb(145, 84, 214);
+border: 3px solid white;
+ font-size: 20px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 12px;
+  font-family: monospace;
+  text-decoration: none;
+}
+a:hover {
+  background-color: rgb(157, 235, 211);
+
+}
+h4 {
+  color: white;
+}

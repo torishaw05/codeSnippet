@@ -1,0 +1,35 @@
+
+<h2> Welcome,{{username}} </h2>
+<link rel='stylesheet' href='./style.css'>
+
+<a href='/logout'>Logout</a>
+<a href='/clippets'>My Clips</a>
+<a href='/create_clip'> Create A Clip</a>
+
+<br>
+<center>
+  <h2> Your World of Clippets </h2>
+
+  <div id='clips'>
+  <!-- {{#clippet}} -->
+<h3> {{username}}</h3>
+ <br></br>
+  <p>{{title}}</p>
+  <br></br>
+  {{clippetcode}}
+  <br></br>
+  {{language}}
+  <br></br>
+  {{notes}}
+  <br></br>
+  {{tags}}
+  <br></br>
+
+<a href='/delete'>Delete</a>
+<a href='/edit/{{id}}'>Edit</a>
+
+  <br></br>
+</div>
+</center>
+<!-- {{/clippet}} -->
+</center>
